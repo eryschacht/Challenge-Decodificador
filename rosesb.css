@@ -1,0 +1,185 @@
+body{
+	width: 900px;
+	height: 950px;
+	padding: 5px 20px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 120%;
+	background-image:url("imagenes/rosas.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+header{
+	padding: 10px 0;
+	color: #FFFFFF;
+	width: 870px;
+	display: inline-block;
+}
+
+main{	
+	width: 900px;
+	height: 690px;
+	padding: 10px 10px;
+	position: relative;
+}
+
+.caja{
+	position: relative;
+	margin: 0 auto; 
+	width: 940px;
+}
+
+.logo{	
+	width: 30%;
+	padding: 20px;
+	margin: 15px 0 10px 20px;
+	float: left;
+}
+
+.gran-titulo{
+	text-align: center;
+	font-size: 1.7em;
+	position: relative;
+	left: 220px;
+	display: inline-block;
+}
+
+.principal{
+	padding: 15px;
+	margin: 20px; 
+	width: 400px;
+	height: 500px;
+	left: 212px;
+	top: 170px;
+	display: inline-block;
+}
+
+.textoPrincipal{
+	padding: 0 20px;
+	border: none;
+	color: #F0F8FF;	
+	text-transform: lowercase;
+	width: 380px;
+	height: 480px;
+	font-size: 35px;
+	text-align: center;
+	cursor: pointer;
+	background: inherit;	
+}
+
+.textoPrincipal:hover{
+	background-image:url("imagenes/munheco.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mensaje{
+	border: none;
+	border-radius: 24px;
+	color: #0A3871;
+	left: 150px;
+	margin-top: 20px;
+	padding-left: 20px;	
+	width: 368px;
+	margin: 15px 10px 0 5px;
+	display: inline-block;	
+	cursor: pointer;
+	position: relative;
+}
+
+.inputPadron{
+	color: #F0F8FF;
+	font-size: 30px;
+	background: border-box;
+	text-align: center;
+}
+
+.mensajeProcesado{
+	width: 335px;
+	height: 125px;
+	display: inline-block;
+	padding: 5px 0;
+	cursor: pointer;
+	font-size: smaller;
+	background: border-box;
+}
+
+/*.mensajeDecodificar{
+	width: 325px;
+	height: 125px;
+	display: inline-block;
+	padding: 5px 0;
+	cursor: pointer;
+	font-size: smaller;
+}*/
+
+.advertencia{
+	display: inline-block;
+	width: 400px;
+	height: 55px;
+	left: 50px;
+	top: 850px;
+}
+
+.signo{
+	width: 4%;
+	padding: 10px;
+	margin: 0 10px 10px 0;
+	float: left;
+}
+
+.advertencia em{
+	font-style: italic;
+	font-size: large;
+	color: #F0F8FF;
+}
+
+.botones{
+	display: table-cell;
+	margin-top: 20px;
+}
+
+.botonEncriptar{
+	width: 270px;
+	height: 47px;	
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #0A3871;	
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	font-size: smaller;
+}
+
+.botonDesencriptar{
+	width: 270px;
+	height: 47px;
+	margin-left: 30px;
+	cursor: pointer;
+	color: #0A3871;
+	background-color: #E8E8E8;	
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	font-size: smaller;
+}
+
+.botonCopiar{
+	width: 270px;
+	height: 47px;
+	margin-left: 10px;
+	cursor: pointer;
+	color: #0A3871;
+	background-color: #E8E8E8;	
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	font-size: smaller;		
+	position: relative;
+	left: 85px;
+}
+
+footer{
+	text-align: center;
+	font-size: 20px;
+	color: #F0F8FF;
+}
